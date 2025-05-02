@@ -6,16 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Projeto Haverim</h1>
-    <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, provident suscipit totam architecto laboriosam ipsum sit cumque officia vel facilis sint minima dolorum omnis dolore porro pariatur tenetur fugiat. Optio.</p>
-    
+    <header>
+        <div class="container">
+            <div class="row header-lg roboto align-items-center">
+                <div class="col-lg-2 col-md-12 col-sm-12 col-xs-9 col-9">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+                <nav class="col-lg-8 col-md-12 col-sm-12 col-xs-9 col-9 d-flex">
+                    <div class="menu-container">
+                        <ul id="menu-menu-1" class="d-flex justify-content-center">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom m"><a href="">Home</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom m"><a href="">A
+                                    Haverim</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom m"><a href=""
+                                    class="">Blog</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom m"><a href=""
+                                    class="">Produtos</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom m"><a href="">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="col-lg-2 col-md-12 col-sm-12 col-xs-9 col-9">
+                    <button class="phone d-flex gap-2 px-2">
+                        <img src="assets/img/icons/WhatsApp-icone.png" width="22px" height="22px" alt="">
+                        <p class="text-white">| 13 97421-3810</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="slider" class="sliderSection">
+        <div class="meu-slider roboto position-relative">
+
+            <div class="slide">
+                <img src="assets/img/banner-slide.png" alt="Imagem 1" class="imgSlide">
+                <div class="descricao">
+                    <h2>Distribuindo qualidade de vida</h2>
+                    <p>Atendemos toda a Baixada Santista</p>
+                    <button class="btn d-flex align-items-center gap-3">
+                        Saiba Mais
+                        <img src="assets/img/icons/arrowRight.svg" alt="" class="arrowRightS"
+                            style="width: 20px; height: 20px;">
+                    </button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/img/maxresdefault.jpg" alt="Imagem 2" class="imgSlide">
+                <div class="descricao">
+                    <h2>Distribuindo qualidade de vida</h2>
+                    <p>Distribuindo qualidade de vida</p>
+                    <button class="btn d-flex align-items-center gap-3">
+                        Saiba Mais
+                        <img src="assets/img/icons/arrowRight.svg" alt="" class="arrowRightS"
+                            style="width: 20px; height: 20px;">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button class=" position-absolute top-50 end-0 translate-middle-y me-3 align-items-center z-1 prevSlidebtn">
+        <img src="assets/img/icons/arrowRight.svg" alt="" style="width: 25px; height: 25px; transform: scaleX(-1);">
+    </button>
+    <button class=" position-absolute top-50 end-0 translate-middle-y me-3 align-items-center z-1 nextSlidebtn">
+        <img src="assets/img/icons/arrowRight.svg" alt="" style="width: 25px; height: 25px;">
+    </button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>

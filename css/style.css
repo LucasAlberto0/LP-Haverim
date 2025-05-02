@@ -1,0 +1,172 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,
+h5, h6, pre, form,p,blockquote {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*Cabeçalho*/
+
+header {
+    background-color: #ededed;
+}
+
+.header-lg {
+    justify-items: center;
+}
+
+header nav {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+
+    font-size: 15px;
+}
+
+.header-lg ul li {
+    padding: 40px 30px;
+}
+
+header a {
+    text-decoration: none;
+    outline: none;
+    color: #838383;
+}
+
+header button {
+    background-color: #2ab349;
+    border-radius: 26px;
+    padding: 6px 0px;
+    text-align: center;
+    border: none;
+}
+
+header p {
+    padding: 0px;
+}
+
+
+/*Slider Principal*/
+
+.meu-slider img {
+    width: 100%;
+    max-height: 1100px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.sliderSection {
+    max-height: 1100px;
+    overflow: hidden;
+}
+
+.meu-slider div {
+    max-height: 1100px;
+}
+
+.meu-slider img {
+    width: 100%;
+    height: 100%;
+    max-height: 679px;
+    object-fit: cover;
+    display: block;
+}
+
+.sliderSection {
+    max-height: 1100px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.slide {
+    position: relative;
+    height: 1100px;
+}
+
+.imgSlide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.descricao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.slide button {
+    margin-top: 40px;
+    align-items: center;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 35px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s all ease;
+}
+
+.slide h2 {
+    font-size: 48px;
+}
+
+
+.nextSlidebtn{
+    right: 9% !important;
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 65px;         
+    height: 65px;
+    background-color: transparent;
+}
+
+.prevSlidebtn{
+    left: 9% !important;
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 65px;         
+    height: 65px;
+    background-color: transparent;
+}
