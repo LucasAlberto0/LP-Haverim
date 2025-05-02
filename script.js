@@ -1,16 +1,16 @@
 $(document).ready(function () {
-    $('.meu-slider').slick({
+    $('.padrao-slider').slick({
         arrows: true,
-        dots: false,
+        dots: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3000
     });
     $('.prevSlidebtn').on('click', function () {
-        $('.meu-slider').slick('slickPrev');
+        $('.padrao-slider').slick('slickPrev');
     });
 
     $('.nextSlidebtn').on('click', function () {
-        $('.meu-slider').slick('slickNext');
+        $('.padrao-slider').slick('slickNext');
     });
 });
