@@ -37,7 +37,6 @@ header nav {
 
 li {
     list-style: none;
-
     font-size: 15px;
 }
 
@@ -145,7 +144,23 @@ header p {
     padding: 20px 30px;
     color: white;
     font-size: 16px;
-    transition: 0.5s all ease;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.slide button img {
+    transition: filter 0.4s ease;
+}
+
+.slide button:hover {
+    background-color: white;
+    color: black;
+}
+
+.slide button:hover img {
+    filter: invert(1);
 }
 
 .slide h2 {
@@ -172,6 +187,26 @@ header p {
     width: 65px;         
     height: 65px;
     background-color: transparent;
+}
+
+.prevSlidebtn,
+.nextSlidebtn {
+    transition: background-color 0.4s ease;
+}
+
+.prevSlidebtn img,
+.nextSlidebtn img {
+    transition: filter 0.4s ease;
+}
+
+.prevSlidebtn:hover,
+.nextSlidebtn:hover {
+    background-color: white;
+}
+
+.prevSlidebtn:hover img,
+.nextSlidebtn:hover img {
+    filter: invert(1);
 }
 
 /*Seçãozinha da parte principal da página*/
@@ -211,6 +246,13 @@ header p {
     padding: 10px;
     background-color: transparent;
     width: 100%;
+    transition: background-color 0.4s ease;
+}
+
+.sectionOrange button:hover{
+    background-color: white;
+    color: #ff9f48;
+
 }
 
 .sectionOrange .row{
@@ -446,9 +488,23 @@ header p {
     transition: all .5s ease;
 }
 
+
+.formButtons button:hover {
+    transition: all .5s ease;
+}
+
+.formButtons button:hover {
+    background-color: #dac29f;
+    color: white;
+}
+
+.formButtons button:hover img {
+    filter: brightness(0) invert(1);
+}
+
 .formSection input::placeholder,
 .formSection textarea::placeholder {
-    color: #82817f; 
+    color: #b3b2b1; 
 }
 
 .formDiv textarea{
@@ -815,7 +871,7 @@ footer {
     }
     .move-up {
         position: relative;
-        transform: translateY(-30%);
+        transform: translateY(-20%);
     }
     .prevSlidebtn{
         display: none;
@@ -830,6 +886,9 @@ footer {
     }
     .divBeforeSlide:before{
         display: none;
+    }
+    .aboutSection{
+        margin-top: 20px;
     }
 }
 
@@ -857,10 +916,6 @@ footer {
     .div-child-3, .div-child-4{
         padding: 6px;
     }  
-    .move-up {
-        position: relative;
-        transform: translateY(-20%);
-    }
     .slide h2 {
         font-size: 32px;
     }
@@ -868,6 +923,19 @@ footer {
     .slide p{
         font-size: 18px;
     }
+}
 
-    
+@media (max-width: 380px){
+    .formDiv{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 360px){
+    .container{
+        max-width: 280px;
+    }
+    .formDiv{
+        max-width: 280px;
+    }
 }
