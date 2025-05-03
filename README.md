@@ -20,7 +20,7 @@ Repliquei do zero a LP da Haverim!
 
 
 ## Deploy do projeto:
-https://lp-2-marcasite-guadalupe.vercel.app/
+https://lp-1-marcasite-haverim.vercel.app/
 
 ## Link do site original:
 https://haverim.com.br/
