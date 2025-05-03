@@ -390,7 +390,7 @@ header p {
 
 .formSection {
     margin-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 .iconForms{
@@ -468,7 +468,145 @@ header p {
 }
 
 
+/*Seção de blog*/
 
+.blogSection h3{
+    color: #b5b5b5;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.blogSection h2{
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 10px;
+    color: #82817f;
+    margin-bottom: 70px;
+}
+
+.blogSection h2:before {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #e87815;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    content: "";
+}
+
+.divsBlog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadrado {
+    width: 5%;
+    height: 200px;
+    background-color: #b3c3c3;
+    opacity: 0.3;
+}
+
+.quadrado1 {
+    width: 16%;
+    height: 200px;
+    background-color: #b3c3c3;
+    opacity: 0.1;
+}
+
+.quadrado2 {
+    width: 26%;
+    position: relative;
+}
+
+.quadrado2 img {
+    width: 97%;
+    margin-left: 3%;
+    height: 190px;
+    object-fit: cover;
+}
+.divsBlog button {
+    background-color: #13b4ad80;
+    padding: 5px 20px;
+    border-radius: 21px;
+    border: none;
+    color: white !important;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+    width: 128px;
+    margin-right: auto;
+}
+
+
+.quadrado2 h3 {
+    color: #82817f;
+    font-size: 26px;
+    text-align: left;
+    margin: 20px 0 0 3%;
+}
+
+.quadrado2 p {
+    line-height: 22px;
+    text-align: left;
+    color: #82817f;
+    font-size: 16px;
+    margin: 15px 0 0 3%;
+}
+
+.quadrado2:before {
+    position: absolute;
+    width: 155px;
+    z-index: -1;
+    background-color: #f88c4d;
+    height: 200px;
+    left: 0;
+    content: "";
+}
+
+
+/*Seção Localização*/
+
+
+
+.localizacao {
+    background-image: url('../assets/img/map.png');
+    padding: 120px 0 70px;
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 120px;
+}
+
+
+.localizacao button {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    align-items: center;    
+    margin: 50px 10px 0 10px;
+}
+
+.localizacao p{
+    margin-top: 20px;
+}
+
+.localizacao button img {
+    width: 20px;
+    height: 14px;
+    margin-left: 14px;
+}
+
+.localizacao button {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9b9b9b;
+}
 
 
 @media (max-width: 992px){
