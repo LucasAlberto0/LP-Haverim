@@ -14,3 +14,9 @@ $(document).ready(function () {
         $('.padrao-slider').slick('slickNext');
     });
 });
+
+document.getElementById('botaoMenu').addEventListener('click', function () {
+    const nav = document.getElementById('menuMobile');
+    this.classList.toggle('aberto'); 
+    nav.classList.toggle('aberto');
+});
