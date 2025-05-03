@@ -566,8 +566,8 @@ header p {
 }
 
 
-/*Seção Localização*/
 
+/*Seção Localização*/
 
 
 .localizacao {
@@ -608,6 +608,65 @@ header p {
     color: #9b9b9b;
 }
 
+
+/*Rodapé*/
+
+
+.detalheFooter {
+    width: 80px;
+    height: 2px;
+    background-color: #e87815;
+}
+
+.logoCustom{
+    margin: 30px 0 50px;
+    position: relative;
+}
+
+footer {
+    color: #b3b3b3;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.dadosFooter a {
+    display: block;
+    color: #ff7329;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.entreDados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.entreDados:nth-child(3) {
+    text-align: right;
+}
+
+.dadosFooter img {
+    margin: 30px 0 20px;
+    width: 29px;
+    height: 29px;
+    object-fit: contain;
+}
+
+.entreDados:nth-child(3) img {
+    margin-left: auto;
+}
+
+.footerBG{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    font-size: 12px;
+}
+.listaFooter ul li{
+    font-size: 12px;
+}
 
 @media (max-width: 992px){
     .full-column-img {
