@@ -19,6 +19,20 @@ h5, h6, pre, form,p,blockquote {
     margin: 0 auto;
 }
 
+.botao-whatsapp {
+    position: fixed;
+    bottom: 100px; 
+    left: 20px;  
+    width: 60px;  
+    height: 60px;
+    z-index: 1000; 
+}
+
+.botao-whatsapp img {
+    width: 100%;
+    height: auto;
+}
+
 
 /*Cabeçalho*/
 
@@ -901,6 +915,13 @@ footer {
     }
     .padrao-slider .img-slide-custom {
         height: 500px;
+    }
+    .botao-whatsapp {
+
+        bottom: 40px; 
+        left: 10px;  
+        width: 40px;  
+        height: 40px;
     }
 }
 
