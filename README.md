@@ -14,7 +14,7 @@ Repliquei do zero a LP da Haverim!
 - CSS 3
 - Bootstrap v5.3.5
 
-## Bibliotecas utilizadas:
+## Biblioteca adicionail utilizada:
  ### Slick.js - para a criação dos slides
  - docs: [https://michalsnik.github.io/aos/](https://kenwheeler.github.io/slick/)
 
